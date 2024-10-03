@@ -1,0 +1,31 @@
+QTableView {
+  border: none;
+}
+
+QListWidget {
+  border: none;
+}
+
+QListWidget#controlListBox_listWidget {
+  border: none;
+}
+
+QCheckBox#entityDefinition_checkboxWidget {
+  margin-left: 11px;
+}
+
+QToolButton#backgroundChecked {
+  border: none;
+}
+
+QToolButton#backgroundChecked::checked {
+  background-color: rgb(0, 0, 0, 60);
+}
+
+QToolButton#toolButton_borderless {
+  border: none;
+}
+
+QToolButton#toolButton_borderless::menu-indicator {
+ image: none;
+}

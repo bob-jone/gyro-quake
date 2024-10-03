@@ -6,17 +6,8 @@
 LoadBSPFile: 'gyro.bsp'
 BSP is version Quake BSP bsp29
 INFO: using built-in palette.
-     6 leafs
-     6 clusters
-    12 portals
-Calculating Base Vis:
-Calculating Full Vis:
-Expanding clusters...
-average leafs visible: 5
-c_noclip: 0
-c_chains: 72
-visdatasize:6  compressed from 6
-Writing gyro.bsp as Quake BSP bsp29
-0.00s elapsed
+************ ERROR ************
+LoadPrtFile: unknown header/empty portal file gyro.prt
+
 
 

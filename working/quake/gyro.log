@@ -7,72 +7,84 @@ Input file: C:\Users\Meredith001\Documents\gyro-quake\working\quake\gyro-compile
 Output file: C:\Users\Meredith001\Documents\gyro-quake\working\quake\gyro.bsp
 
 INFO: using built-in palette.
-WARNING: No wad or _wad key exists in the worldmodel
-     1 entities
-     2 unique textures
-     4 texinfos
-    12 unique planes
+WARNING: gyro-compile.map[line 6]: Unrecognised string escape - \.
+WARNING: gyro-compile.map[line 6]: Unrecognised string escape - \e
+WARNING: gyro-compile.map[line 6]: Unrecognised string escape - \q
+WARNING: gyro-compile.map[line 6]: Unrecognised string escape - \p
+WARNING: gyro-compile.map[line 6]: Unrecognised string escape - \p
+WARNING: gyro-compile.map[line 6]: Unrecognised string escape - \.
+WARNING: gyro-compile.map[line 6]: Unrecognised string escape - \e
+WARNING: gyro-compile.map[line 6]: Unrecognised string escape - \q
+WARNING: gyro-compile.map[line 6]: Unrecognised string escape - \p
+WARNING: gyro-compile.map[line 6]: Unrecognised string escape - \p
+     2 entities
+     6 unique textures
+    31 texinfos
+    46 unique planes
 
-INFO: world extents calculated to 328 units
-    1 brushes
-    6 sides
+INFO: world extents calculated to 1064 units
+     5 brushes
+    30 sides
 
             0 texture frames added
-WARNING: unable to find texture skip
-WARNING: unable to find texture __TB_empty
 Processing hull 0...
-    1 SOLID brushes
-    1 brushes total
-    6 visible sides
-INFO: calculating BSP for 1 brushes with 6 sides
-    1 brushes
-    6 non-visible faces
-    6 nodes
-    6 non-visible nodes
-    6 expensive split nodes
-    7 leaves
-    6 EMPTY leafs
-    1 SOLID leafs
-    7 leafs total
-    7 max tree height
-    4 avg tree height
-    36 tree portals
-WARNING: No entities in empty space -- no filling performed (hull 0)
-    36 tree portals
-    6 sides visible
-    6 makefaces
-     6 player-occupiable leaves
-     6 clusters of leaves
-    12 vis portals
-    6 EMPTY leafs
-    1 SOLID leafs
-    7 leafs total
-    7 max tree height
-    4 avg tree height
+    5 SOLID brushes
+    5 brushes total
+    30 visible sides
+INFO: calculating BSP for 5 brushes with 30 sides
+     5 brushes
+    30 visible faces
+    26 nodes
+    26 expensive split nodes
+    27 leaves
+    22 EMPTY leafs
+     5 SOLID leafs
+    27 leafs total
+    9 max tree height
+    6 avg tree height
+    150 tree portals
+WARNING: Reached occupant "info_player_start" at (-96 -48 88), no filling performed.
+Leak file written to gyro.pts
+            3 portals written to gyro.leak.prt
+    150 tree portals
+    32 sides visible
+    32 makefaces
+     2 merged
+     8 subdivided
+    22 EMPTY leafs
+     5 SOLID leafs
+    27 leafs total
+    9 max tree height
+    6 avg tree height
+     8 edges added by tjunctions
+    38 faces optimized through MWT
+    84 triangles computed from MWT
+    80 edges
+    38 faces
 Processing hull 1...
-WARNING: No entities in empty space -- no filling performed (hull 1)
+WARNING: Reached occupant "info_player_start" at (-96 -48 88), no filling performed.
 Processing hull 2...
-WARNING: No entities in empty space -- no filling performed (hull 2)
+WARNING: Reached occupant "info_player_start" at (-96 -48 88), no filling performed.
 Writing gyro.bsp as Quake BSP bsp29
 Wrote gyro.bsp
 
 count   lump name    byte size 
       1 models               64
-     17 planes              340
-      1 vertexes             12
-      6 nodes               144
-      0 texinfos              0
-      0 faces                 0
-     12 clipnodes            96
-      7 leafs               196
-      0 marksurfaces          0
-      1 edges                 4
-      0 surfedges             0
-      2 textures             12
+     55 planes             1100
+     52 vertexes            624
+     26 nodes               624
+     30 texinfos           1200
+     38 faces               760
+    142 clipnodes          1136
+     23 leafs               644
+     40 marksurfaces         80
+     81 edges               324
+    160 surfedges           640
+      6 textures          98188
         lightdata             0
         visdata               0
-        entdata              58
+        entdata             231
 
-0.007s seconds elapsed
+0.014s seconds elapsed
 
 

@@ -3,8 +3,8 @@
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
 
-Input file: C:\Users\Meredith001\Documents\quake-leveldesign-starterkit\working\quake\gyro-compile.map
-Output file: C:\Users\Meredith001\Documents\quake-leveldesign-starterkit\working\quake\gyro.bsp
+Input file: C:\Users\Meredith001\Documents\gyro-quake\working\quake\gyro-compile.map
+Output file: C:\Users\Meredith001\Documents\gyro-quake\working\quake\gyro.bsp
 
 INFO: using built-in palette.
 WARNING: No wad or _wad key exists in the worldmodel
@@ -13,7 +13,7 @@ WARNING: No wad or _wad key exists in the worldmodel
      4 texinfos
     12 unique planes
 
-INFO: world extents calculated to 456 units
+INFO: world extents calculated to 328 units
     1 brushes
     6 sides
 
@@ -73,6 +73,6 @@ count   lump name    byte size
         visdata               0
         entdata              58
 
-0.009s seconds elapsed
+0.007s seconds elapsed
 
 
